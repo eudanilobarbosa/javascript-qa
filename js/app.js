@@ -143,15 +143,22 @@ document.getElementById('user-name').innerHTML = userName
 
 // Objetos (Super Variáveis) //
 
-var yoda = {
-    nome: 'Mestre Yoda',
-    idade: 100,
-    jedi: true,
-    mostraIdade: function () {
-        console.log(`A idade do ${this.nome} é ${this.idade} anos.`)
-    }
-}
+// var yoda = {
+//     nome: 'Mestre Yoda',
+//     idade: 100,
+//     jedi: true,
+//     mostraIdade: function () {
+//         console.log(`A idade do ${this.nome} é ${this.idade} anos.`)
+//     }
+// }
 
-console.log(yoda)
-yoda.mostraIdade()
+// console.log(yoda)
+// yoda.mostraIdade()
 
+// Constantes //
+
+const nome = 'Darth Vader'
+console.log(nome)
+
+nome = 'Mestre Yoda'
+console.log(nome)
