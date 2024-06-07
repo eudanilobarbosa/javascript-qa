@@ -126,7 +126,7 @@ document.getElementById('user-name').innerHTML = userName
 
 // Controles de repetição (Loops) //
 
-var personagens = ['Mestre Yoda', 'Luke Skywalker', 'Princesa Leia', 'Darth Vader', 'R2D2']
+// var personagens = ['Mestre Yoda', 'Luke Skywalker', 'Princesa Leia', 'Darth Vader', 'R2D2']
 
 // personagens.forEach(function (p) {
 //     console.log(p)
@@ -141,5 +141,17 @@ var personagens = ['Mestre Yoda', 'Luke Skywalker', 'Princesa Leia', 'Darth Vade
 //     // código vai ser executado até a condição retornar false
 // }
 
+// Objetos (Super Variáveis) //
 
+var yoda = {
+    nome: 'Mestre Yoda',
+    idade: 100,
+    jedi: true,
+    mostraIdade: function () {
+        console.log(`A idade do ${this.nome} é ${this.idade} anos.`)
+    }
+}
+
+console.log(yoda)
+yoda.mostraIdade()
 
